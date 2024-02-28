@@ -79,8 +79,8 @@ export default function Folder({filesData}) {
               <div style={{cursor: "default", userSelect: "none"}} className="folder" onClick={onExpand}>
                   <span>{open ? openFolder : activeFolder} {filesData.name}</span>
                   <div>
-                    <button style={{cursor: "pointer"}} className="newFile" onClick={(e) => handleNewFolder(e, true)}>{newFolder}</button>
-                    <button style={{cursor: "pointer"}} className="newFolder" onClick={(e) => handleNewFolder(e, false)}>{newFile}</button>
+                    <button style={{cursor: "pointer"}} className="newFolder" title="Add a folder" onClick={(e) => handleNewFolder(e, true)}>{newFolder}</button>
+                    <button style={{cursor: "pointer"}} className="newFile" title="Add a file" onClick={(e) => handleNewFolder(e, false)}>{newFile}</button>
                 </div>
               </div>
       
