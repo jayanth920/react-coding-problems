@@ -1,0 +1,67 @@
+.phoneOtpPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .phoneWrapper,.phoneEntryBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .phoneNumberEntry, .otpLengthEntry{
+    height: 2rem;
+    width: 10rem;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: border-color 0.25s;
+    padding-left: 5px;
+  }
+
+  .phoneNumberEntry:hover, .otpLengthEntry:hover {
+    border-color: #646cff;
+  }
+
+  .phoneNumberEntry:focus, .otpLengthEntry:focus,
+  .phoneNumberEntry:focus-visible, .otpLengthEntry:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.phEntry{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  font-weight: 400;
+  margin:0;
+  gap: 10px;
+}
+
+.OtEntry{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  font-weight: 400;
+  margin:0;
+  gap: 10px;
+}
+
+
+  .highlighted{
+    color: red;
+  }
+
+  .errorText{
+    text-align: center;
+  }
