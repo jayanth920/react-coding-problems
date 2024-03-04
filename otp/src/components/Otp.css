@@ -1,0 +1,46 @@
+.otpWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.otpInputFields{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.digit{
+    color: azure;
+    background-color: black;
+    width: 55px;
+    height: 67px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    transition: border-color 0.25s;
+}
+
+.digit:hover {
+    border-color: #646cff;
+  }
+
+ .digit:focus,
+.digit:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.validationText{
+    color: rgb(19, 240, 19);
+}
+
+.invalidationText{
+    color: red;
+}
+
+
+
